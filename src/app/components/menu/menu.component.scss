@@ -1,0 +1,33 @@
+@import '../../../assets/scss/fonts.scss';
+
+.icon {
+    background-image: url(../../../assets/img/logo_test.svg);
+    height: 28px;
+    width: 229px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-nav .nav-link.active {
+    background: #4576ff;
+    border-radius: 5px;
+}
+
+
+
+.title{
+    font-family: $font-body-montserrat;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 6px;
+  }
