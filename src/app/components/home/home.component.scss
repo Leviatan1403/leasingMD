@@ -1,0 +1,16 @@
+@import '../../../assets/scss/fonts.scss';
+
+.container{
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(172,104,255,1) 42%, rgba(80,88,252,1) 56%, rgba(65,141,255,1) 66%, rgba(255,255,255,1) 85%);
+    width: 100% !important;
+    
+}
+
+.title{
+    font-family: $font-body-montserrat;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 6px;
+  }
