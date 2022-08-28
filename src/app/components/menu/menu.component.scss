@@ -1,3 +1,5 @@
+@import '../../../assets/scss/fonts.scss';
+
 .icon {
     background-image: url(../../../assets/img/logo_test.svg);
     height: 28px;
@@ -18,4 +20,10 @@
 .navbar-nav .nav-link.active {
     background: #3180F9;
     border-radius: 5px;
+}
+
+.text-second-active{
+    font-family: $font-body-montserrat-light;
+    letter-spacing: 2px;
+    color: #fff !important;
 }

@@ -1,0 +1,14 @@
+@import '../../../assets/scss/fonts.scss';
+
+.title {
+    font-family: $font-body-montserrat;
+    //font-weight: 700 !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 40px;
+    font-size: 2rem;
+}
+
+.container {
+    width: 100% !important;
+}

@@ -1,0 +1,32 @@
+@import '../../../assets/scss/fonts.scss';
+
+.size{
+    width: 80%;
+}
+
+.iconinfo{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.btnsize{
+    padding: 5px 20px 5px 20px;
+    font-family: $font-body-montserrat-light;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    background: #0d6efd;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.subtitle {
+    font-family: $font-body-montserrat-light;
+    color: #8710BE;
+    font-size: 1.5rem;
+}
+
+.tablesize{
+    height: 648px;
+    box-shadow: 1px 0px 10px 1px grey;
+}

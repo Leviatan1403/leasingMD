@@ -5,3 +5,11 @@ $font-body-montserrat: 'leasing montserrat';
     src: url('#{ $font-path }.ttf') format('truetype');
     font-weight: 700;
 }
+
+$font-body-montserrat-light: 'leasing montserrat ligth';
+@font-face {
+    $font-path: '../fonts/Montserrat-Light';
+    font-family: $font-body-montserrat-light;
+    src: url('#{ $font-path }.ttf') format('truetype');
+    font-weight: 400;
+}
