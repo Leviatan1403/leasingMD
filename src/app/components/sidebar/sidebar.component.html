@@ -26,7 +26,7 @@
     <div class="d-inline-block mb-3" *ngIf="!change">
         <img class="iconinfo" src="../../../assets/img/info.svg"/><small class="text-muted text-second">Uno de nuestros ejecutivos preparará tu cotización y te la hará llegar a tu correo electrónico.</small>
     </div>
-    <div class="d-inline-block mb-3" *ngIf="change">
+    <div class="d-inline-block mb-3 w-100" *ngIf="change">
         <span>¡Tu cotización está en camino!</span>
     </div>
     <button mat-button class="btnsize" (click)="sendValues()" *ngIf="!change">{{text}}</button>
