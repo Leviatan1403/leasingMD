@@ -1,0 +1,19 @@
+@import '../../../assets/scss/fonts.scss';
+
+.icon {
+    background-image: url(../../../assets/img/logo_test.svg);
+    height: 28px;
+    width: 229px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.title {
+    font-family: $font-body-montserrat;
+    font-size: 1rem;
+}
+
+.textContainer {
+    font-family: $font-body-montserrat-light;
+}

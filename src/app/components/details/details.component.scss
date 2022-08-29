@@ -2,13 +2,50 @@
 
 .title {
     font-family: $font-body-montserrat;
-    //font-weight: 700 !important;
     font-stretch: normal;
     font-style: normal;
     line-height: 40px;
-    font-size: 2rem;
+    font-size: 2.5rem;
+}
+
+.sub-title {
+    font-family: $font-body-montserrat;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 20px;
+    font-size: 1.5rem;
+}
+
+.sub-content {
+    font-family: $font-body-montserrat-light;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.position {
+    position: sticky;
+    top: 180px;
 }
 
 .container {
     width: 100% !important;
+    background: #F5F7FA;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
 }

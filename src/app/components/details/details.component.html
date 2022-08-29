@@ -1,12 +1,12 @@
 <div class="container col-xl-12 col-xxl-8 px-4 py-5">
-    <div class="row align-items-center g-lg-5 py-5">
-        <div class="col-lg-5 text-center text-lg-start">
-            <span class="position-sticky title">Ofrecemos más que el arrendamiento de un seminuevo.</span>
+    <div class="row g-5 px-4 py-5">
+        <div class="col-lg-5">
+                <span class="title position">Ofrecemos más que el arrendamiento de un seminuevo.</span>
         </div>
-        <div class="col-lg-7 mx-auto col-lg-5">
+        <div class="col-lg-6 mx-auto col-lg-5">
             <div class="col-md-12 mt-2" *ngFor="let detail of details">
-                <div class="h-100 p-4 w-100 bg-light border rounded-3">
-                    <h2>{{detail.title}}</h2>
+                <div class="h-100 p-4 w-100 bg-light border rounded-1">
+                    <h2 class="sub-title">{{detail.title}}</h2>
                     <p>
                     {{detail.contain}}
                     </p>

@@ -1,22 +1,21 @@
 <nav class="navbar navbar-expand-md mb-4">
-    <div class="container-fluid">
+    <div class="container-fluid px-4 pt-2">
         <mat-icon class="navbar-brand icon me-md-auto"></mat-icon>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="nav-link text-second" href="#">Productos de Arrendamiento</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-second">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-primary py-2 text-second text-second-active" aria-current="page" href="#">Contactanos</a>
-                </li>
-            </ul>
+            <div class="navbar-nav me-auto mb-2 mb-md-0">
+                <button mat-button class="nav-link text-second mx-3" [matMenuTriggerFor]="menu">Productos de Arrendamiento<mat-icon>expand_more</mat-icon></button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item>Arrendamiento de auto</button>
+                    <button mat-menu-item>Arrendamiento de equipo médico</button>
+                    <button mat-menu-item>Linea de arrendamiento</button>
+                </mat-menu>
+                <button mat-button class="nav-link text-second mx-3">Nosotros</button>
+                <button mat-button class="btnC py-2 text-second mx-3 text-second-active">Contactanos</button>
+            </div>
         </div>
     </div>
 </nav>

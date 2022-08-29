@@ -9,6 +9,10 @@
     cursor: pointer;
 }
 
+.btnC{
+    background: #3180F9;
+}
+
 .navbar-collapse {
     flex-grow: 0 !important;
 }
@@ -26,4 +30,14 @@
     font-family: $font-body-montserrat-light;
     letter-spacing: 2px;
     color: #fff !important;
+}
+
+ul li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+ul li:hover > ul {
+    display:block;
 }
